@@ -4,6 +4,6 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-      steps:
-        -name: print message
-          run: echo "my world"
+    steps:
+      -name: print message
+      run: echo "my world"
