@@ -1,9 +1,11 @@
 name: first-workflow
-on:
-  [push]
+
+on: [push]
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
-      -name: print message
-      run: echo "my world"
+      - name: print message
+        run: echo "my world"
